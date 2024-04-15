@@ -1,0 +1,13 @@
+
+.boxes {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .boxes > div {
+    flex: 1;
+    margin: 4em 1em;
+    border: 2px solid rgb(77, 76, 131);
+    background-color: rgb(255, 255, 255);
+    line-height: 60px;
+    text-align: center;
+  }
